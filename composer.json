@@ -2,6 +2,11 @@
   "name": "wangqs/bullshit",
   "description": "狗屁不通文章生成器PHP版.",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "wangqs"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Wangqs\\Bullshit\\": "src"
