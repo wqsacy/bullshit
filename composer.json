@@ -1,4 +1,7 @@
 {
+  "name": "wangqs/bullshit",
+  "description": "狗屁不通文章生成器PHP版.",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Wangqs\\Bullshit\\": "src"
