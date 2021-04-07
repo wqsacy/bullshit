@@ -18,7 +18,7 @@
 		 * @author     :  Wangqs  2021/4/7
 		 * @description:  主要生成方法
 		 */
-		public function generator ( $title = 'hello world' , $length = 1000 , $data = 'data.json' ) {
+		protected static function generator ( $title = 'hello world' , $length = 1000 , $data = 'data.json' ) {
 			$body = '';
 			$data = dirname( dirname( __FILE__ ) ) . DIRECTORY_SEPARATOR . $data;
 			$data = json_decode( file_get_contents( $data ) , true );

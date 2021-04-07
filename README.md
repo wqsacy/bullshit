@@ -13,7 +13,7 @@ $ composer require wangqs/bullshit -vvv
 ```
 use Wangqs\Bullshit;
 $bullshit = new Bullshit();
-echo $bullshit->generator("hello word",1000);
+echo $bullshit::generator("hello word",1000);
 ```
 
 ## Contributing
