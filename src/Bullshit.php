@@ -19,11 +19,10 @@
 		 * @description:  主要生成方法
 		 */
 		public function generator ( $title = 'hello world' , $length = 1000 , $data = 'data.json' ) {
-			$body = "";
+			$body = '';
 			$data = dirname( dirname( __FILE__ ) ) . DIRECTORY_SEPARATOR . $data;
 			$data = json_decode( file_get_contents( $data ) , true );
 			while ( strlen( $body ) / 3 < $length ) {
-
 				$num = rand( 0 , 100 );
 				if ( $num < 10 ) {
 					$body .= "\r\n";
