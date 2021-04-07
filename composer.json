@@ -11,8 +11,5 @@
     "psr-4": {
       "Wangqs\\Bullshit\\": "src"
     }
-  },
-  "require": {
-    "ext-json": "*"
   }
 }
